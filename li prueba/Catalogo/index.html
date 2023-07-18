@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,200;1,300&display=swap" rel="stylesheet">
+<title>Li-fashion</title>
+</head>
+<body>
+    <div id="overlay" class="overlay" style="display: none;">
+        <main id="login-Register__Form" style="display: none;"> 
+            <div class="contenido-main">
+
+                <div class="back-box">
+                    <div class="back-box__Login">
+                        <h3>Ya tienes una cuenta?</h3>
+                        <p>Incia sesion para entrar en la pagina</p>
+                        <button id="btn-iniciar__sesion"> Iniciar sesion</button>
+                    </div>
+                    <div class="back-box__register">
+                        <h3>Aun no tienes una cuenta?</h3>
+                        <p>Registrarse para iniciar sesion</p>
+                        <button id="btn-registrarse"> Registrarse</button>
+
+                    </div>
+                    <button class="btn-salir"> <img src="./img/x.svg" alt=""></button>
+                    
+                </div>
+                
+                
+                
+                <div class="content-login">
+                    <form id="login-form">
+                        <h2>Iniciar Sesión</h2>
+                        <div class="form-group">
+                            <input type="email" id="correo" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="contraseña" required placeholder="Contraseña">
+                        </div>
+                        <button type="submit">Iniciar Sesión</button>
+                    </form>
+                    
+                    <form id="register-form">
+                        <h2>Registro</h2>
+                        <div class="form-group">
+                            <input type="text" id="username" required placeholder="Nombre de usuario">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder="Correo electrónico">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="password" required placeholder="Contraseña">
+                        </div>
+                        <button type="submit" id="btnCreateUser">Registrarse</button>
+                    </form>
+                    
+                </div>    
+            </div>
+        </main>
+    </div>   
+    <header>
+        <div class="header-main">
+            <div class="header-logo">
+                <img class="header-logo__img"  src="./img/logoLi.svg" alt="">
+                <button  class="categoria menu-desplegable-btn">Categorías
+                    <img class="flecha" src="./img/flecha.svg" alt=""></button>
+                    <a href="#content-footer" class="header-contacto">Contáctanos <img class="flecha" src="./img/flecha.svg" alt=""></a>
+                </div>
+                <div class="menu-desplegable">
+                    <ul>
+                        <li><a href="#">Categoría 1</a>
+                            <ul>
+                                <li><a href="#">Subcategoría 1.1</a></li>
+                                <li><a href="#">Subcategoría 1.2</a></li>
+                                <li><a href="#">Subcategoría 1.3</a></li>
+                            </ul>
+                        </li>
+                      <li><a href="#">Categoría 2</a>
+                        <ul>
+                            <li><a href="#">Subcategoría 2.1</a></li>
+                            <li><a href="#">Subcategoría 2.2</a></li>
+                            <li><a href="#">Subcategoría 2.3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Categoría 3</a>
+                        <ul>
+                            <li><a href="#">Subcategoría 3.1</a></li>
+                          <li><a href="#">Subcategoría 3.2</a></li>
+                          <li><a href="#">Subcategoría 3.3</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </div>
+                <div class="header-content__search">
+                    <img class="header-search" src="./img/lupa.svg" alt="" >
+                    <input type="text" placeholder="Que Buscas?">
+                </div>
+                <div class="header-content">
+                    <button class="button-carrito"> <img class="header-carrito" src="./img/carrito.svg" alt=""></button>
+                    <!-- <button class="button-menu"> <img class="header-menu" src="./img/menu.svg" alt=""></button> -->
+                    <button class="login-button">Iniciar Sesion</button>
+                    <button class="registro" >Registrate</button>
+                    
+                </div>
+            </div>
+    </header>
+
+    <div class="banner-img">
+            <img class="banner-img__main" src="./img/bannerLi2.svg" alt="">
+    </div>
+
+        
+                    
+                    
+    <section class="main-content">
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/maquillaje2.0.webp" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+
+            <div class="main-productos">
+                <a href="https://www.youtube.com/">
+                    <img class="main-content__img" src="./img/prueba.jpeg" alt="">
+                </a>
+                    <p class="content-description">Labial Estee Lauder</p>
+                    <p class="content-price">Precio: 40$</p>
+                    <button class="content-button">
+                        <p class="content-button__add">Agregar</p>
+                        <img class="content-button__img" src="" alt="">
+                    </button>
+                
+            </div>
+            
+        
+
+    </section>
+
+    <footer>
+            <div class="content-footer" id="content-footer">
+                <img class="logo-footer" src="./img/logoLi.svg" alt="">
+                <div class="number-footer">
+                    <p class="phone">0412-3602056</p>
+                    <p class="contacto">Contactanos</p>
+                </div>
+                <div class="redes-footer">
+                    <a href="">
+                        <img class="redes-footer__icon" src="./img/instagram.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img class="redes-footer__icon" src="./img/tiktok.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img class="redes-footer__icon" src="./img/wasapp.svg" alt="">
+                    </a>
+                </div>
+            </div>
+    </footer>
+    
+    <script src='./js/index.js'></script>
+    <script src='./js/database.js' type="module"></script>
+    
+    
+</body>
+</html>

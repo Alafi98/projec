@@ -1,0 +1,29 @@
+.content-footer {
+    display: flex;
+    background-color: var(--Foscuro);
+    justify-content: space-around;
+    align-items: center;
+    height: 91px;
+    margin-top: 120px;
+    gap: 100px;
+}
+
+
+
+.logo-footer {
+    width: 100px;
+}
+
+.redes-footer a img {
+    width: 50px;
+}
+.number-footer{
+font-size: 20px;
+color: white;
+}
+
+.redes-footer {
+    display: flex;
+    gap: 40px;
+    
+}

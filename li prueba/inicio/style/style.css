@@ -1,0 +1,12 @@
+body {
+	background-color: #fdddca;
+	padding: 0;
+	margin: 0;
+}
+
+.main-access {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
